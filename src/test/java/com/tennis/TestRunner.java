@@ -1,4 +1,4 @@
-package com.todo;
+package com.tennis;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         monochrome = true,
         features = {
-                "src/features/todo"
+                "src/features/tennis"
         }
 )
 public class TestRunner {
